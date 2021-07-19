@@ -1977,7 +1977,7 @@
                 {
                     "text": "Water represents a critical nutrient, the absence of which will be lethal within days.",
                     "document": "http://www.ncbi.nlm.nih.gov/pubmed/20646222",
-                    "snippet_exact_answer": "\u00a0Water represents a critical nutrient, the absence of which will be lethal within days."
+                    "snippet_exact_answer": "\u00a0Water represents a critical nutrient"
                 }
             ],
             "documents": [
@@ -1989,7 +1989,7 @@
             "q_structure": "simple",
             "q_syntax": "good",
             "q_acuity": "clear",
-            "exact_answer": "\u00a0Water represents a critical nutrient, the absence of which will be lethal within days."
+            "exact_answer": "\u00a0Water represents a critical nutrient"
         },
         {
             "body": "Does being underweight have an influence on cancer risk?",
@@ -2905,7 +2905,7 @@
                 {
                     "text": "National Health Service (NHS) Blood and Transplant in England currently allows men to donate up to every 12 weeks and women to donate up to every 16 weeks. In contrast, some other European countries allow donations as frequently as every 8 weeks for men and every 10 weeks for women.",
                     "document": "http://www.ncbi.nlm.nih.gov/pubmed/25230735",
-                    "snippet_exact_answer": "men 8-12 weeks, women 10-16 weeks"
+                    "snippet_exact_answer": "every 8 weeks for men and every 10 weeks for women"
                 }
             ],
             "documents": [
@@ -2917,7 +2917,7 @@
             "q_structure": "simple",
             "q_syntax": "poor",
             "q_acuity": "clear",
-            "exact_answer": "men 8-12 weeks, women 10-16 weeks"
+            "exact_answer": "every 8 weeks for men and every 10 weeks for women"
         },
         {
             "body": "Pulmonary diseases and oxygen therapy",
@@ -3209,12 +3209,12 @@
                 {
                     "text": "No scientific studies were found in support of 8 x 8. Rather, surveys of food and fluid intake on thousands of adults of both genders, analyses of which have been published in peer-reviewed journals, strongly suggest that such large amounts are not needed because the surveyed persons were presumably healthy and certainly not overtly ill.",
                     "document": "http://www.ncbi.nlm.nih.gov/pubmed/12376390",
-                    "snippet_exact_answer": "depends"
+                    "snippet_exact_answer": " equal to and greater than 8 x 8"
                 },
                 {
                     "text": "that large intakes of fluid, equal to and greater than 8 x 8, are advisable for the treatment or prevention of some diseases and certainly are called for under special circumstances, such as vigorous work and exercise, especially in hot climates.",
                     "document": "http://www.ncbi.nlm.nih.gov/pubmed/12376390",
-                    "snippet_exact_answer": "depends"
+                    "snippet_exact_answer": " equal to and greater than 8 x 8"
                 }
             ],
             "documents": [
@@ -3226,7 +3226,7 @@
             "q_structure": "simple",
             "q_syntax": "poor",
             "q_acuity": "clear",
-            "exact_answer": "varies"
+            "exact_answer": " equal to and greater than 8 x 8"
         },
         {
             "body": "Can Helicobacter pylori affect the body outside of the digestive system?",
@@ -3301,17 +3301,17 @@
                 {
                     "text": "proofreading performance was better with positive than with negative polarity displays. The results are compatible with the hypothesis that the positive polarity advantage is an effect of display luminance.",
                     "document": "http://www.ncbi.nlm.nih.gov/pubmed/25135324",
-                    "snippet_exact_answer": "positive polarity displays"
+                    "snippet_exact_answer": "positive polarity "
                 },
                 {
                     "text": "A positive polarity advantage was observed in proofreading performance. Importantly, the positive polarity advantage linearly increased with decreasing character size.",
                     "document": "http://www.ncbi.nlm.nih.gov/pubmed/25141597",
-                    "snippet_exact_answer": "positive polarity displays"
+                    "snippet_exact_answer": "positive polarity "
                 },
                 {
                     "text": "typically higher luminance of positive polarity displays leads to an improved perception of detail.",
                     "document": "http://www.ncbi.nlm.nih.gov/pubmed/25141597",
-                    "snippet_exact_answer": "positive polarity displays"
+                    "snippet_exact_answer": "positive polarity "
                 }
             ],
             "documents": [
@@ -3324,7 +3324,7 @@
             "q_structure": "simple",
             "q_syntax": "good",
             "q_acuity": "ambiguous",
-            "exact_answer": "positive polarity displays"
+            "exact_answer": "positive polarity "
         },
         {
             "body": "How does the stomach handle liquid vs solid food?",
@@ -3584,19 +3584,19 @@
                 {
                     "text": "Every female of reproductive age with significant injuries should be considered pregnant until proven otherwise by a definitive pregnancy test or ultrasound scan.",
                     "document": "http://www.ncbi.nlm.nih.gov/pubmed/26334607",
-                    "snippet_exact_answer": "Every female of reproductive age with significant injuries should be considered pregnant until proven otherwise by a definitive pregnancy test or ultrasound scan."
+                    "snippet_exact_answer": "not_applicable"
                 }
             ],
             "documents": [
                 "http://www.ncbi.nlm.nih.gov/pubmed/26334607"
             ],
-            "type": "factoid",
+            "type": "summary",
             "id": 14411,
             "q_objectivity": "subjective",
             "q_structure": "simple",
             "q_syntax": "good",
             "q_acuity": "ambiguous",
-            "exact_answer": "Every female of reproductive age with significant injuries should be considered pregnant until proven otherwise by a definitive pregnancy test or ultrasound scan."
+            "exact_answer": "not_applicable"
         },
         {
             "body": "Why is some alcohol consumption healthier than no alcohol consumption?",
@@ -3722,7 +3722,39 @@
             "q_structure": "simple",
             "q_syntax": "good",
             "q_acuity": "clear",
-            "exact_answer": "autoimmune disorder"
+            "exact_answer": "autoimmune "
+        },
+        {
+            "body": "What is the cause of Type 1 Diabetes?",
+            "snippets": [
+                {
+                    "text": "Type 1 diabetes is an autoimmune disorder",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/20432533",
+                    "snippet_exact_answer": "autoimmune disorder"
+                },
+                {
+                    "text": "According to the traditional model of pathogenesis of type 1 diabetes - it develops in genetically susceptible individuals in whom environmental factors trigger an autoimmune process of beta-cell destruction.",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/17941471",
+                    "snippet_exact_answer": "autoimmune process of beta-cell destruction"
+                },
+                {
+                    "text": "Type 1 diabetes is perceived as a chronic immune-mediated disease with a subclinical prodromal period characterized by selective loss of insulin-producing beta-cells in the pancreatic islets in genetically susceptible subjects. A series of evidence supports a critical role of exogenous factors in the development of type 1 diabetes, such as 1) the fact that <10% of individuals with HLA-conferred diabetes susceptibility do progress to clinical disease, 2) a pairwise concordance of type 1 diabetes of <40% among monozygotic twins, 3) a more than 10-fold difference in the disease incidence among Caucasians living in Europe, 4) a several-fold increase in the incidence over the last 50 years, and 5) migration studies indicating that the disease incidence has increased in population groups who have moved from a low-incidence to a high-incidence region.",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/16306330",
+                    "snippet_exact_answer": " chronic immune-mediated disease "
+                }
+            ],
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/20432533",
+                "http://www.ncbi.nlm.nih.gov/pubmed/17941471",
+                "http://www.ncbi.nlm.nih.gov/pubmed/16306330"
+            ],
+            "type": "factoid",
+            "id": 43,
+            "q_objectivity": "objective",
+            "q_structure": "simple",
+            "q_syntax": "good",
+            "q_acuity": "clear",
+            "exact_answer": "autoimmune "
         },
         {
             "body": "Effects caused by staying near the mobile network towers",
@@ -5041,19 +5073,19 @@
                 {
                     "text": "On average, males have larger total brain volumes than females.",
                     "document": "http://www.ncbi.nlm.nih.gov/pubmed/24374381",
-                    "snippet_exact_answer": "On average, males have larger total brain volumes than females.\u00a0"
+                    "snippet_exact_answer": "not_applicable"
                 }
             ],
             "documents": [
                 "http://www.ncbi.nlm.nih.gov/pubmed/24374381"
             ],
-            "type": "factoid",
+            "type": "summary",
             "id": 4413,
             "q_objectivity": "objective",
             "q_structure": "simple",
             "q_syntax": "good",
             "q_acuity": "clear",
-            "exact_answer": "On average, males have larger total brain volumes than females.\u00a0"
+            "exact_answer": "not_applicable"
         },
         {
             "body": "how it's better to drink water, fast or slowly?",

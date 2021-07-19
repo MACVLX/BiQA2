@@ -2157,7 +2157,7 @@
                 {
                     "text": "the gut-brain axis: interactions between enteric microbiota, central and enteric nervous systems.",
                     "document": "http://www.ncbi.nlm.nih.gov/pubmed/25830558",
-                    "snippet_exact_answer": "The gut-brain axis: interactions between enteric microbiota, central and enteric nervous systems."
+                    "snippet_exact_answer": "The gut-brain axis"
                 }
             ],
             "documents": [
@@ -2169,7 +2169,7 @@
             "q_structure": "compound",
             "q_syntax": "poor",
             "q_acuity": "clear",
-            "exact_answer": "The gut-brain axis: interactions between enteric microbiota, central and enteric nervous systems."
+            "exact_answer": "The gut-brain axis"
         },
         {
             "body": "Can you direct me to an article about fasting and low carb ketogenic diet put out by a major society of health care professionals?",
